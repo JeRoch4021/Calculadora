@@ -4,5 +4,7 @@
 
 ### Integrantes
 - Zúñiga Gómez Jóse Alberto
-
+- Rocha Sainez Jeshua Isaac
+- Cadena López Ivan Alejandro
+- Plascencia Rodriguez Diana Carolina
 
