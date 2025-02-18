@@ -28,3 +28,17 @@ def resta (minuendo, sustraendo):
     except TypeError:
         print(f"No se puede restar {minuendo} con {sustraendo}")
         return 0
+
+def raiz(num, exp=2):
+    """
+    Funcion que calcula la raiz de un numero
+    :param num: Numero a calcular la raiz cuadrada
+    :param exp: Exponente de la raiz cuadrada
+    :return: Resultado de la raiz cuadrada
+    :exception Si se intenta calcular la raiz de un numero negativo, devolvera 0
+    """
+    try:
+        return num ** (1/exp)
+    except TypeError:
+        print(f"No se puede calcular la raiz cuadrada de {num} con exponente {exp}")
+        return 0
